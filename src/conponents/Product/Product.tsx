@@ -135,8 +135,8 @@ const Product = motion(
                 <Review key={review._id} review={review} />
               ))}
             </Card>
+            <ReviewForm productId={product._id} />
           </motion.div>
-          <ReviewForm productId={product._id} />
         </div>
       );
     }
