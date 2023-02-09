@@ -4,7 +4,7 @@ import cn from "classnames";
 import Input from "../Input/Input";
 import Button from "../Button/Button";
 import glass from "../../../public/glass.png";
-import { useState } from "react";
+import { useState, KeyboardEvent } from "react";
 import Router from "next/router";
 
 const Search = ({ className, ...props }: SearchProps): JSX.Element => {
