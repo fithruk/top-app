@@ -1,0 +1,24 @@
+.star {
+  margin-left: 5px;
+  color: #e2e2e2;
+  transition: 0.2s linear;
+  width: 15px;
+  height: 15px;
+  background-position: center no-repeat;
+  background-size: contain;
+  margin-top: 5px;
+  background-image: url("../../../public/emptyStar.png");
+}
+
+.starWrapper {
+  display: flex;
+}
+
+.fill {
+  background-image: url("../../../public/filledStar.png");
+  color: #7653fc;
+}
+
+.editable {
+  cursor: pointer;
+}

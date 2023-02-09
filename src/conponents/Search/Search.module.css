@@ -1,0 +1,24 @@
+.search {
+  position: relative;
+  width: 100%;
+}
+
+.search input {
+  width: 100%;
+}
+
+.button {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 3px;
+  right: 3px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonImg {
+  width: 15px;
+  height: 15px;
+}

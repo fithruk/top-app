@@ -1,0 +1,18 @@
+.wrapper {
+  display: grid;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #7653fc;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  grid-template-columns: 2fr 0.5fr 0.5fr;
+  grid-template-rows: 10vh;
+}
+
+@media (max-width: 756px) {
+  .wrapper {
+    text-align: center;
+    grid-template-columns: minmax(320px, 1fr);
+  }
+}

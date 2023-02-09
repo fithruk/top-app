@@ -1,0 +1,17 @@
+.sort {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.sort span:last-child {
+  margin-left: 10px;
+}
+
+.active {
+  color: #7653fc;
+  font-weight: 600;
+}
